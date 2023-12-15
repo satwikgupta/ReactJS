@@ -14,5 +14,6 @@ function useCurrencyInfo(currency) {
     },[currency])
     return data
 }
+// console.log(data)
 
 export default useCurrencyInfo
