@@ -19,7 +19,6 @@ function App() {
   const deleteTodo = (id) => {
     setTodos((prev) => prev.filter((prevTodo) => prevTodo.id !== id));
   };
-
   const toggleCompleted = (id) => {
     setTodos((prev) =>
       prev.map((prevTodo) =>
