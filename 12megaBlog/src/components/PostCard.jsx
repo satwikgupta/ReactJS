@@ -1,5 +1,5 @@
 import React from 'react'
-import appwriteService from '../services/config'
+import appwriteService from '../appwrite/config'
 import { Link } from 'react-router-dom'
 
 
