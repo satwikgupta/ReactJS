@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 
 function PostCard({$id, title, featuredImage}) {
+  console.log("PostCard Logs: ", $id, title, featuredImage)
   return (
     <Link to={`/posts/${$id}`}>
         <div className='w-full bg-gray-100 rounded-xl p-4'>

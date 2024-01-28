@@ -19,9 +19,6 @@ function App() {
           dispatch(logout());
         }
       })
-      .catch( (error) => {
-        console.error("Login Error: ",error);
-      })
       .finally(() => {setLoading(false)});
   }, []);
 
@@ -30,7 +27,7 @@ function App() {
       <div className="w-full block">
       <Header />
       <main>
-        Todo:   <Outlet />
+        <Outlet />
       </main>
       <Footer />
       </div>
